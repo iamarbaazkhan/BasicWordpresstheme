@@ -1,0 +1,44 @@
+header{
+    background: #000;
+    height:100px;
+    width:100%;
+  
+}
+
+header .top-bar{
+
+    display: flex;
+    list-style-type: none;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+header .top-bar li a{
+    padding:2rem;
+    font-size:20px;
+    font-family:serif;
+    text-transform: uppercase;
+    color:white;
+    text-decoration:none;
+}
+
+/* aligning the items */
+header .top-bar li:first-child a{
+    padding-left:0px;
+}
+
+header .top-bar li:last-child a{
+    padding-right:0px;
+}
+
+/* page content below the header */
+.page-wrap{
+    padding:2rem;
+}
